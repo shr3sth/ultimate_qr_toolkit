@@ -1,0 +1,6 @@
+pillow==12.2.0
+PyQt6==6.11.0
+PyQt6-Qt6==6.11.1
+PyQt6_sip==13.11.1
+pyzbar==0.1.9
+qrcode==8.2
