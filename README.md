@@ -115,8 +115,8 @@ SH_QR_CODE_GEN/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/shr3sth/ultimate_qr_toolkit.git
+cd ultimate_qr_toolkit
 ```
 
 Create a virtual environment:
