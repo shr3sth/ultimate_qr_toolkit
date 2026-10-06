@@ -33,6 +33,44 @@ from qr_templates import (
 
 app = QApplication(sys.argv)
 
+app.setStyleSheet("""
+    QWidget {
+        background-color: #202020;
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    QLineEdit {
+        background-color: #2b2b2b;
+        color: #ffffff;
+        border: 1px solid #444444;
+        border-radius: 4px;
+        padding: 6px;
+    }
+
+    QPushButton {
+        background-color: #333333;
+        color: #ffffff;
+        border: 1px solid #555555;
+        border-radius: 4px;
+        padding: 6px;
+    }
+
+    QPushButton:hover {
+        background-color: #444444;
+    }
+
+    QPushButton:pressed {
+        background-color: #555555;
+    }
+
+    QListWidget {
+        background-color: #2b2b2b;
+        color: #ffffff;
+        border: 1px solid #444444;
+    }
+""")
+
 # Main Window
 window = QWidget()
 window.setWindowTitle("Shr3sth's QR Toolkit")
