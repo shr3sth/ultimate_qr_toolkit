@@ -66,7 +66,7 @@ Generate specialized QR codes for:
 
 ### Inspector
 
-![Inspector Page](assets/inspector_page.png)
+![Inspector Page](assets/inspector_page1.png)
 
 ### Calendar Template
 
@@ -110,17 +110,15 @@ SH_QR_CODE_GEN/
 
 ---
 
-## Installation
+## Install & Run App:
 
 ```
-
 git clone https://github.com/shr3sth/ultimate_qr_toolkit.git
 cd ultimate_qr_toolkit
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python3 src/gui.py
-
 ```
 
 ---
