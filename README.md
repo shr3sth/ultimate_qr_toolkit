@@ -112,29 +112,15 @@ SH_QR_CODE_GEN/
 
 ## Installation
 
-Clone the repository:
+```
 
-```bash
 git clone https://github.com/shr3sth/ultimate_qr_toolkit.git
 cd ultimate_qr_toolkit
-```
-
-Create a virtual environment:
-
-```bash
 python3 -m venv venv
 source venv/bin/activate
-```
-Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
 python3 src/gui.py
+
 ```
 
 ---
